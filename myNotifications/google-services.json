@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1054103608232",
+    "project_id": "reactnative-push-notific-7a905",
+    "storage_bucket": "reactnative-push-notific-7a905.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054103608232:android:b91ae47350ced049465b9d",
+        "android_client_info": {
+          "package_name": "com.markocdroid.myNotifications"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeehJsDG4sg3n8Yxs3G5zPIsRYt2Sb_N4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
