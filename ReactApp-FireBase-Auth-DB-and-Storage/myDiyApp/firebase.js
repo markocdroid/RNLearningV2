@@ -3,6 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 // firebase.js
 import { getAuth } from "firebase/auth"; // Note: firebase/auth here too
+import { getFirestore } from "firebase/firestore"; // This defines getFirestore
 
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -23,4 +24,6 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app); // Ensure this is exported
+const db = getFirestore(app); // db is now of type FirebaseFirestore
+export { db };
 const analytics = getAnalytics(app);
